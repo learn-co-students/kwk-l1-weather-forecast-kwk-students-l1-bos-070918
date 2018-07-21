@@ -37,7 +37,7 @@ describe 'Weather Hash' do
   describe '#weather_report' do
     it "returns a weather report as a string" do
 
-      expect(weather_report(@nyc_weather)).to eq("The weather in New York is Partly Cloudy. The temperature is 75 degrees Farenheit." )
+      expect(weather_report(@nyc_weather)).to eq("The weather in New York is Partly Cloudy. The temperature is 75 degrees Fahrenheit." )
     end
   end
    describe '#city_weather_info' do
